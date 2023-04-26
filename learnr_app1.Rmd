@@ -1,0 +1,21 @@
+---
+output:
+    html_document:
+        includes:
+            in_header: arch1.html
+runtime: shiny_prerendered
+---
+
+```{r configuracion, include=FALSE}
+
+library(learnr)
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{r cod-1, exercise=TRUE}
+
+1 + 1
+```
+
+::: {data-iframe-height=""}
+:::
